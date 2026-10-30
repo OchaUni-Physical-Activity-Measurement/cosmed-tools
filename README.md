@@ -8,17 +8,17 @@ Developped in collaboration with students of 身体行動計測演習 (physical 
 
 2025: @Momonek, @LIUjingjie0227
 
-## rmr-calculation.py
-execution : <code>python rmr-calculation.py --folder data/<data-folder-name></code>
+## cosmed_tools.py
+execution : <code>python cosmed_tools.py --folder data/<data-folder-name></code>
 
-with verbose : <code>python rmr-calculation.py --folder data/<data-folder-name> --verbose</code>
+with verbose : <code>python cosmed_tools.py --folder data/<data-folder-name> --verbose</code>
 
-without argument : <code>python rmr-calculation.py</code>
+without argument : <code>python cosmed_tools.py</code>
 
-multiple files : <code>python rmr-calculation.py --folder data --recursive</code>
+multiple files : <code>python cosmed_tools.py --folder data --recursive</code>
 
 Two example folders are provided: <code>test-01/</code>, <code>test-02/</code>
 
-single file execution : <code>python rmr-calculation.py --folder data-sample/test-01</code>
+single file execution : <code>python cosmed_tools.py --folder data-sample/test-01</code>
 
-recursive execution   : <code>python rmr-calculation.py --folder data-sample --recursive</code>
+recursive execution   : <code>python cosmed_tools.py --folder data-sample --recursive</code>
